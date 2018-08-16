@@ -1,0 +1,130 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: fantasy;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 3rem;
+  align-items: center;
+  background-color: #286DA8;
+}
+
+ h1 {
+   font-size: 2rem;
+   color: #CD5360;
+   margin-left: 0.5rem;
+   font-family: "Snell Roundhand", cursive;
+ }
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  align-items: center;
+}
+
+h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #B37D48;
+  color: #438496;
+  width: 20%;
+  height: 2rem;
+  font-size: 1.1rem;
+  border: solid 1px black;
+}
+
+.banner {
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #CD5360;
+}
+
+h3 {
+  height: 20rem;
+  width: 100%;
+  font-size: 7rem;
+  color: #286DA8;
+  font-family: 'Monoton', cursive;
+  border: inset 1px white;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.banner h4{
+  font-size: 3rem;
+  color: #438496;
+}
+
+.rules {
+  height: 15rem;
+  background-color: white;
+}
+
+.rules h4 {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 3rem;
+  color: #286DA8;
+}
+
+li {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #B37D48;
+}
+
+.shop {
+  background-color: #B37D48;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.shop h4 {
+  color: #CD5360;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.products {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.product {
+  background-color: #286DA8;
+  color: white;
+  width: 20rem;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: solid 5px #438496;
+}
+
+h5 {
+  font-size: 2rem;
+}
+
+tag {
+  text-decoration: underline;
+  font-weight: bold;
+}
